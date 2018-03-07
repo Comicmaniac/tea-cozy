@@ -1,0 +1,31 @@
+* {
+  border: solid 1px red;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px white;
+}
+
+nav span {
+  display: inline-block;
+  align-items: center;
+  text-decoration: underline;
+}
+
+div > img {
+  padding-left: 10px;
+  height: 50px;
+}
